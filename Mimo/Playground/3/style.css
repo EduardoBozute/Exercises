@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 80px);
+    border: #1E96FF 1px dashed;
+    background-color: #E0F6FF;
+   }
+   
+   .item-1 {
+    grid-column: span 3;
+    grid-row: span 4;
+   }
+   
+   .grid-item {
+    background-color: #1E96FF;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 5px;
+   }
